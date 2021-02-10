@@ -1,0 +1,20 @@
+export const REGISTER_USER='REGISTER_USER';
+export const LOGIN_USER='LOGIN_USER';
+export const LOGOUT='LOGOUT';
+export const REGISTRATION_FAILED='REGISTRATION_FAILED';
+export const LOGIN_FAILED='LOGIN FAILED';
+export const LOAD_USER='LOAD_USER';
+export const AUTH_ERROR='AUTH_ERROR';
+
+export const LIKE='LIKE'
+export const ADD_POST='ADD_POST';
+export const DELETE_POST='DELETE_POST';
+export const UPDATE_POST='UPDATE_POST';
+export const SET_CURRENT_POST='SET_CURRENT_POST';
+export const CLEAR_CURRENT_POST='CLEAR_CURRENT_POST';
+export const FILTER_POST='FILTER_POST';
+export const CLEAR_FILTER_POST='CLEAR_FILTER_POST';
+export const SET_ALERT='SET_ALERT';
+export const CLEAR_ALERT='CLEAR_ALERT';
+export const GET_POST='GET_POST';
+export const GET_POSTBYUSER='GET_POSTBYUSER';

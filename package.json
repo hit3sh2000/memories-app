@@ -1,0 +1,40 @@
+{
+  "name": "emgur_app",
+  "version": "1.0.0",
+  "description": "## Learning Competencies",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server",
+    "start-server": "node server.js",
+    "client": "npm start --prefix frontend",
+    "clientinstall": "npm install --prefix client",
+    "dev": "concurrently \"npm run start\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exponentsoftware/-MS_Imgur_Lupus_Tep_Online_Full-time_2020_10.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/exponentsoftware/-MS_Imgur_Lupus_Tep_Online_Full-time_2020_10/issues"
+  },
+  "homepage": "https://github.com/exponentsoftware/-MS_Imgur_Lupus_Tep_Online_Full-time_2020_10#readme",
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "config": "^3.3.3",
+    "express": "^4.17.1",
+    "express-validator": "^6.7.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.4",
+    "nodemon": "^2.0.6",
+    "react-file-base64": "^1.0.3"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0"
+  }
+}
